@@ -47,18 +47,6 @@ const LandingPage = () => (
         }}>
             <Container maxWidth={false} sx={{ maxWidth: 800, px: { xs: 3, md: 4 }, position: 'relative' }}>
 
-                {/* Tag pill */}
-                <Box sx={{
-                    display: 'inline-flex', alignItems: 'center', gap: 1,
-                    px: 2, py: 0.75, mb: 4, borderRadius: '999px',
-                    background: 'rgba(99,102,241,0.1)',
-                    border: '1px solid rgba(99,102,241,0.25)',
-                }}>
-                    <Box sx={{ width: 6, height: 6, borderRadius: '50%', background: '#6366F1', animation: 'pulse 2s infinite' }} />
-                    <Typography sx={{ fontSize: '12px', fontWeight: 700, color: '#818CF8', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
-                        ML-Powered DevOps Analytics
-                    </Typography>
-                </Box>
 
                 {/* Headline */}
                 <Typography sx={{
